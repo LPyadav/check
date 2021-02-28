@@ -1,5 +1,5 @@
 .bg{
-     background-color:  #4557fdde;
+     background-color:  #0432a1;
      width: 100%;
      height: 100vh;
      
@@ -61,12 +61,12 @@ width: 500px;
 
 } */
 
-svg{
+/* svg{
      position: absolute;
      width: 100%;
      bottom: 0;
      left: 0;
-     animation-name: move-left;
+     animation-name: example;
      animation-duration: 4s;
      animation-iteration-count: infinite;
      animation-direction: alternate;
@@ -89,7 +89,7 @@ svg{
      100% {
        left:0px; 
        top:0px;}
-   }
+   } */
    div.waves{
      width: 100%;
      bottom: 0;
@@ -121,7 +121,7 @@ h2{
 
 }
 span{
-     color:#4557fdde ;
+     color:#0432a1;
 }
  .bg1{
       background-color: #fff;
@@ -129,7 +129,7 @@ span{
  .m2{
       background-color: #fff;
  }
- @media only screen and (max-width: 786px) {
+ @media only screen and (max-width: 800px) {
      .wave-animate {
        display: none;
      }
@@ -142,6 +142,91 @@ span{
           
 
      }
+ .sv2 img{
+          display: none;
+     }
     
+     .sv  svg {
+          display: none;
+     
+         
+      }
+      .hide img{
+           display: none;
+      }
+      .bg5{
+           background-color:#0432a1 ;
+           position: absolute;
+           text-align: center;
+           top: 3500px;
+           z-index: 100200020;
+           
+           
+      }
+       h2{
+           color: white;
+           text-align: center;
+      }
+       p{
+          color: white;
+          text-align: center;
+     }
+      .bg4{
+           position: relative;
+           
+      }
+      .text {
+           color: white;
+      }
+      
    }
    
+  .bg4{
+       background-color:#0432a1 ;
+       height: 210vh;
+       position: relative;
+       z-index: 10;
+       
+       
+
+
+  }
+  .sv{
+     
+       position: absolute;
+       width: 100%;
+       margin-top: -300px;
+  }
+  h2{
+       color: white;
+  }
+  p{
+       color: white;
+
+  }
+  .sv2{
+       z-index: 1000100;
+  }
+  /* .bg5{
+     background-color:#0432a1;
+     height: 100vh;
+     position: relative;
+  } */
+  .text{
+       margin: auto;
+       color: white;
+  }
+  .bg5 h2{
+       color: white;
+       
+
+  }
+  .bg5 p{
+       color: white;
+  }
+  .bg5{
+       background-color:#0432a1 ;
+  }
+  h6{
+       color: white;
+  }
