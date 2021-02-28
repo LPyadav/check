@@ -160,6 +160,7 @@ span{
            text-align: center;
            top: 3500px;
            z-index: 100200020;
+           width:100%;
            
            
       }
@@ -226,6 +227,7 @@ span{
   }
   .bg5{
        background-color:#0432a1 ;
+       width:100%;
   }
   h6{
        color: white;
